@@ -32,7 +32,7 @@ Sending the request using the 'AWS .NET 8.0 Mock Lambda Test Tool' on localhost
 ![image](https://github.com/user-attachments/assets/84dfe068-d7d6-4a4f-b4ab-b016bdfc709e)
 
 # Visual Studio setting up AWS Deployment
-After setup your AWS account in the VS. In the "Aws Explorer" create a new Lambda deployment
+After setting up your AWS account on Visual Studio. Open  the "Aws Explorer" and create a new Lambda deployment
 ![image](https://github.com/user-attachments/assets/4686a729-4ef5-418b-9a24-c41369d1fd2a)
 ![image](https://github.com/user-attachments/assets/eaf0817a-4698-4ae8-824c-898e67c73dff)
 ![image](https://github.com/user-attachments/assets/ac210bf3-5ee7-4bf7-bca9-16c456fb1a74)
