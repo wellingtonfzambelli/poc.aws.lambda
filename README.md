@@ -49,7 +49,6 @@ Testing on Visual Studio
 Lambda AWS Dashboard
 ![image](https://github.com/user-attachments/assets/c6ff15a2-0de7-4f4e-81cd-28eb8046a498)
 
-
 Browser testing
 ![image](https://github.com/user-attachments/assets/67257cfd-dfb4-43a8-a6e7-360907b8c118)
 
