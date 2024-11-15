@@ -10,7 +10,7 @@ This project demonstrates the use of Lambda AWS with various triggers: Timer Tri
 
 # Http Trigger
 Main method
-![image](https://github.com/user-attachments/assets/4d8827e5-daad-4b26-b21e-70f689120f90)
+![image](https://github.com/user-attachments/assets/9de8d8d5-d5d7-45a6-9476-bdb39b73ca5d)
 
 Json used to send the request
 ```json
