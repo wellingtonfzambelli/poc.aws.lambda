@@ -4,8 +4,7 @@ This project demonstrates the use of Lambda AWS with various triggers: Timer Tri
 # Stacks of this project
 - .NET 8
 - AWS Lambda
-- MySQL
-- Postman (for API testing)
+- XUnit
 - Visual Studio 2022
 
 # Http Trigger
@@ -31,3 +30,6 @@ Json used to send the request
 
 Sending the request using the AWS Mock screen
 ![image](https://github.com/user-attachments/assets/84dfe068-d7d6-4a4f-b4ab-b016bdfc709e)
+
+# Testing
+![image](https://github.com/user-attachments/assets/88b71de4-612e-46d1-ba04-6df22215d17c)
