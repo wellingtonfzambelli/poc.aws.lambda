@@ -6,6 +6,15 @@ namespace poc.cloud.aws.lambda.tests;
 
 public sealed class HttpFunctionTets
 {
+    private readonly Mock<ILambdaContext> _contextMock;
+    private readonly Mock<ILambdaLogger> _loggerMock;
+
+    public HttpFunctionTets()
+    {
+        _contextMock = new Mock<ILambdaContext>();
+        _loggerMock = new Mock<ILambdaLogger>();
+    }
+
     [Fact]
     public async Task ExtractNameFromQuerystringAsync_ReturnsSuccessResponse_WhenNameProvided()
     {
@@ -18,14 +27,13 @@ public sealed class HttpFunctionTets
             }
         };
 
-        var loggerMock = new Mock<ILambdaLogger>();
-        var contextMock = new Mock<ILambdaContext>();
-        contextMock.Setup(c => c.Logger).Returns(loggerMock.Object);
+        
+        _contextMock.Setup(c => c.Logger).Returns(_loggerMock.Object);
 
         var function = new HttpFunction();
 
         // Act
-        var response = await function.ExtractNameFromQuerystringAsync(request, contextMock.Object);
+        var response = await function.ExtractNameFromQuerystringAsync(request, _contextMock.Object);
 
         // Assert
         Assert.NotNull(response);
@@ -43,14 +51,12 @@ public sealed class HttpFunctionTets
             QueryStringParameters = null // No parameters
         };
 
-        var loggerMock = new Mock<ILambdaLogger>();
-        var contextMock = new Mock<ILambdaContext>();
-        contextMock.Setup(c => c.Logger).Returns(loggerMock.Object);
+        _contextMock.Setup(c => c.Logger).Returns(_loggerMock.Object);
 
         var function = new HttpFunction();
 
         // Act
-        var response = await function.ExtractNameFromQuerystringAsync(request, contextMock.Object);
+        var response = await function.ExtractNameFromQuerystringAsync(request, _contextMock.Object);
 
         // Assert
         Assert.NotNull(response);
