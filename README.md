@@ -28,20 +28,19 @@ Json used to send the request
 }
 ````
 
-Sending the request using the AWS Mock screen in localhost
+Sending the request using the 'AWS .NET 8.0 Mock Lambda Test Tool' on localhost
 ![image](https://github.com/user-attachments/assets/84dfe068-d7d6-4a4f-b4ab-b016bdfc709e)
 
-# AWS Deployment
-
+# Visual Studio setting up AWS Deployment
 After setup your AWS account in the VS. In the "Aws Explorer" create a new Lambda deployment
 ![image](https://github.com/user-attachments/assets/4686a729-4ef5-418b-9a24-c41369d1fd2a)
 ![image](https://github.com/user-attachments/assets/eaf0817a-4698-4ae8-824c-898e67c73dff)
 ![image](https://github.com/user-attachments/assets/ac210bf3-5ee7-4bf7-bca9-16c456fb1a74)
 
-
-Testing in the VS
+Testing on Visual Studio
 ![image](https://github.com/user-attachments/assets/9a31f2ca-e247-417d-b321-ba6d96a70d54)
 
+# 
 
-# Testing
+# Unit Tests
 ![image](https://github.com/user-attachments/assets/88b71de4-612e-46d1-ba04-6df22215d17c)
