@@ -4,7 +4,7 @@ using Moq;
 
 namespace poc.cloud.aws.lambda.tests;
 
-public class UnitTest1
+public sealed class HttpFunctionTets
 {
     [Fact]
     public async Task ExtractNameFromQuerystringAsync_ReturnsSuccessResponse_WhenNameProvided()
