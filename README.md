@@ -9,6 +9,14 @@ This project demonstrates the use of Lambda AWS with various triggers: Timer Tri
 - Visual Studio 2022
 
 # Http Trigger
+```csharp
+public class Customer
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public string Email { get; set; }
+}
+````
 Main method
 ![image](https://github.com/user-attachments/assets/4d8827e5-daad-4b26-b21e-70f689120f90)
 
