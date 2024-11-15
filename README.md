@@ -12,6 +12,7 @@ This project demonstrates the use of Lambda AWS with various triggers: Timer Tri
 Main method
 ![image](https://github.com/user-attachments/assets/4d8827e5-daad-4b26-b21e-70f689120f90)
 
+Json used to send the request
 ```json
 {
     "resource": "/{proxy+}",
@@ -28,5 +29,5 @@ Main method
 }
 ````
 
-Sending a request using the AWS Mock screen
+Sending the request using the AWS Mock screen
 ![image](https://github.com/user-attachments/assets/84dfe068-d7d6-4a4f-b4ab-b016bdfc709e)
