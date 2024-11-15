@@ -1,5 +1,5 @@
 # About
-This project demonstrates the use of Lambda AWS with various triggers: Timer Trigger, HTTP Trigger, MySQL Changes Trigger, and MySQL Select.
+This project demonstrates the use of Lambda AWS
 
 # Stacks of this project
 - .NET 8
