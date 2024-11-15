@@ -6,15 +6,8 @@ using Amazon.Lambda.Core;
 
 namespace poc.cloud.aws.lambda;
 
-public sealed class Function
+public sealed class HttpFunction
 {
-
-    /// <summary>
-    /// A simple function that takes a string and does a ToUpper
-    /// </summary>
-    /// <param name="input">The event for the Lambda function handler to process.</param>
-    /// <param name="context">The ILambdaContext that provides methods for logging and describing the Lambda environment.</param>
-    /// <returns></returns>
     public async Task<APIGatewayProxyResponse> ExtractNameFromQuerystringAsync
     (
         APIGatewayProxyRequest request,
